@@ -8,3 +8,18 @@ NoPrint.js EXAMPLE:
 https://pdfanticopy.com/noprint-example.html
 
 
+<h3>How to Use NoPrint.js</h3>
+<br><br>
+You can copy this code below and insert into your HTML before </body>:
+<br><br>
+<i>
+<script language="javascript">
+ <br>
+var noPrint=true;<br>
+var noCopy=true;<br>
+var noScreenshot=true;<br>
+var autoBlur=true;<br>
+</script><br><br>
+
+<script type="text/javascript" src="https://pdfanticopy.com/noprint.js"></script>
+ </i>
