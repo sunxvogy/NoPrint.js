@@ -21,5 +21,5 @@ var noScreenshot=true;<br>
 var autoBlur=true;<br>
 </script><br><br>
 
-<script type="text/javascript" src="https://pdfanticopy.com/noprint.js"></script>
+<script type="text/javascript" src="noprint.js"></script>
  </i>
