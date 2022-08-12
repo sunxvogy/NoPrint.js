@@ -10,7 +10,7 @@ if (noCopy)
 	    return false;
 	}
  	document.onkeydown = function() {
-		if(event.ctrlKey == true && event.keyCode == 83) {
+		if((event.ctrlKey == true || event.metaKey == true) && event.keyCode == 83) {
 			event.preventDefault();
 		}
 	}
@@ -76,7 +76,7 @@ document.addEventListener('keyup', (e) => {
 });
 
 document.addEventListener('keydown', (e) => {
-    if (e.ctrlKey && e.key == 'p') {
+    if ((e.ctrlKey || e.metaKey) && e.key == 'p') {
         if (noPrint)
 	    	{
 	        e.cancelBubble = true;
