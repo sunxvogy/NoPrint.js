@@ -10,7 +10,10 @@ if (noCopy)
 	    return false;
 	}
  	document.onkeydown = function() {
-		if(event.ctrlKey == true && event.keyCode == 83) {
+		if((event.ctrlKey == true || event.metaKey == true) && event.keyCode == 83) {
+			event.preventDefault();
+		}
+		if((event.ctrlKey == true || event.metaKey == true) && event.code == 83) {
 			event.preventDefault();
 		}
 	}
